@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import { withCountryInfo } from "./scripts/countries.js";
+
+const nextConfig = withCountryInfo({});
 
 export default nextConfig;
