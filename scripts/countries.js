@@ -32,4 +32,4 @@ function withCountryInfo(nextConfig = {}) {
   return nextConfig
 }
 
-module.exports = { withCountryInfo, setupCountryInfo }
+module.exports = { withCountryInfo }
